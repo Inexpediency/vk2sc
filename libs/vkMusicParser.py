@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests as req
 import re
+import json
 
 
 class VkParser:
@@ -14,5 +15,7 @@ class VkParser:
         music_list = re.split(r'data-audio', music_list)[1:-1]
         music_list = str(music_list)
 
-        with open("guru99.txt", "w+", encoding="utf8") as f:
+        print(music_list)
+
+        with open("guru99.json", "w+", encoding="utf8") as f:
             f.write(music_list)
