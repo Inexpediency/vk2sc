@@ -1,4 +1,6 @@
 from bs4 import BeautifulSoup
+import json
+from pprint import pprint
 import requests as req
 import json
 from pprint import pprint
@@ -22,5 +24,5 @@ class VkParser:
             data = json.load(f)
 
         music_list = data.get('payload')[1][0]
-
+        
         pprint(music_list)        
