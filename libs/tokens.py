@@ -1,2 +1,1 @@
-VK_PLAYLIST_LINK = 'https://vk.com/ythosa?z=audio_playlist378560088_167'
-
+VK_PLAYLIST_LINK = 'https://vk.com/biggboi?z=audio_playlist267696821_3'
